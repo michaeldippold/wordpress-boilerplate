@@ -13,7 +13,7 @@
         wp_enqueue_style('style'); // Enqueue it!
 
         /* Custom styles and js */
-        wp_register_style('theme-styles', get_template_directory_uri() . 'css/style.css', array(), '1.0', 'all');
+        wp_register_style('theme-styles', get_template_directory_uri() . '/css/style.css', array(), '1.0', 'all');
         wp_enqueue_style('theme-styles'); // Enqueue it!
 
         wp_register_script('theme-js', get_template_directory_uri() . '/js/custom.js', array(), '1.0'); 
