@@ -1,6 +1,6 @@
 /* Variables */
+@import 'reset';
 @import 'variables';
-
 
 /* Custom */
 @import 'header';
@@ -8,6 +8,7 @@
 @import 'interior-page';
 @import 'flow';
 @import 'footer';
+@import 'components';
 
 /* Vendor */
 @import 'slick';
